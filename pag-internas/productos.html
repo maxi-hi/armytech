@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>ArmyTech - Productos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="/img/logoprueba2.png" alt="logo-principal" class="logo-principal">
+                    ArmyTech
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pag-internas/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pag-internas/ingresar.html">Ingresar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pag-internas/carrito.html">Carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pag-internas/ayuda.html">Ayuda</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container mt-4">
+            <nav class="navbar navbar-light bg-light custom-navbar bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Categorías</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#customNavbarNav" aria-controls="customNavbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="custom-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="customNavbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item categoria-item">
+                                <a class="nav-link" href="#procesadores">Procesadores</a>
+                            </li>
+                            <li class="nav-item categoria-item">
+                                <a class="nav-link" href="#monitores">Monitores</a>
+                            </li>
+                            <li class="nav-item categoria-item">
+                                <a class="nav-link" href="#hardware">Hardware</a>
+                            </li>
+                            <li class="nav-item categoria-item">
+                                <a class="nav-link" href="#pcs-armadas">PCs Armadas</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+<section id="procesadores" class="productos-seccion">
+    <h2 class="titulo-seccion">Procesadores</h2>
+    <div class="destacados-section">
+        <div class="card">
+            <img src="../img/procesador-intel-imagen1.jpg" alt="Procesador-Intel-1">
+            <div class="card-body">
+                <h5 class="card-title">Procesador Intel Core i7</h5>
+                <p class="card-text">Potente procesador Intel Core i7 para un rendimiento excepcional.</p>
+                <p class="precio">$300.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/procesador-intel-imagen2.jpg" alt="Procesador-Intel-2">
+            <div class="card-body">
+                <h5 class="card-title">Procesador Intel Core i5</h5>
+                <p class="card-text">Procesador Intel Core i5 para un equilibrio perfecto entre rendimiento y eficiencia.</p>
+                <p class="precio">$250.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/procesador-intel-imagen3.jpg" alt="Procesador-Intel-3">
+            <div class="card-body">
+                <h5 class="card-title">Procesador Intel Pentium</h5>
+                <p class="card-text">Procesador Intel Pentium ideal para tareas diarias y multitarea ligera.</p>
+                <p class="precio">$100.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/procesador-amd-imagen1.jpg" alt="Procesador-AMD-1">
+            <div class="card-body">
+                <h5 class="card-title">Procesador AMD Ryzen 7</h5>
+                <p class="card-text">Procesador AMD Ryzen 7 con rendimiento excepcional en aplicaciones exigentes.</p>
+                <p class="precio">$350.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/procesador-amd-imagen2.jpg" alt="Procesador-AMD-2">
+            <div class="card-body">
+                <h5 class="card-title">Procesador AMD Ryzen 5</h5>
+                <p class="card-text">Procesador AMD Ryzen 5 con gran capacidad multitarea.</p>
+                <p class="precio">$280.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/procesador-amd-imagen3.jpg" alt="Procesador-AMD-3">
+            <div class="card-body">
+                <h5 class="card-title">Procesador AMD Athlon</h5>
+                <p class="card-text">Procesador AMD Athlon para un rendimiento eficiente en aplicaciones diarias.</p>
+                <p class="precio">$120.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="monitores" class="productos-seccion">
+    <h2 class="titulo-seccion">Monitores</h2>
+        <div class="destacados-section">
+            <div class="card">
+                <img src="../img/monitor-imagen1.jpg" alt="Monitor-1">
+                <div class="card-body">
+                    <h5 class="card-title">Monitor HD 24 pulgadas</h5>
+                    <p class="card-text">Monitor de alta definición con pantalla de 24 pulgadas.</p>
+                    <p class="precio">$180.00</p>
+                    <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/monitor-imagen2.jpg" alt="Monitor-1">
+                <div class="card-body">
+                    <h5 class="card-title">Monitor HD 24 pulgadas</h5>
+                    <p class="card-text">Monitor de alta definición con pantalla de 24 pulgadas.</p>
+                    <p class="precio">$180.00</p>
+                    <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/monitor-imagen3.jpg" alt="Monitor-1">
+                <div class="card-body">
+                    <h5 class="card-title">Monitor HD 24 pulgadas</h5>
+                    <p class="card-text">Monitor de alta definición con pantalla de 24 pulgadas.</p>
+                    <p class="precio">$180.00</p>
+                    <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/monitor-imagen4.jpg" alt="Monitor-1">
+                <div class="card-body">
+                    <h5 class="card-title">Monitor HD 24 pulgadas</h5>
+                    <p class="card-text">Monitor de alta definición con pantalla de 24 pulgadas.</p>
+                    <p class="precio">$180.00</p>
+                    <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/monitor-imagen5.jpg" alt="Monitor-1">
+                <div class="card-body">
+                    <h5 class="card-title">Monitor HD 24 pulgadas</h5>
+                    <p class="card-text">Monitor de alta definición con pantalla de 24 pulgadas.</p>
+                    <p class="precio">$180.00</p>
+                    <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/monitor-imagen6.jpg" alt="Monitor-1">
+                <div class="card-body">
+                    <h5 class="card-title">Monitor HD 24 pulgadas</h5>
+                    <p class="card-text">Monitor de alta definición con pantalla de 24 pulgadas.</p>
+                    <p class="precio">$180.00</p>
+                    <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section id="hardware" class="productos-seccion">
+    <h2 class="titulo-seccion">Hardware</h2>
+    <div class="destacados-section">
+        <div class="card">
+            <img src="../img/placamadre-imagen1.jpg" alt="Hardware-1">
+            <div class="card-body">
+                <h5 class="card-title">Placa Madre Gaming</h5>
+                <p class="card-text">Placa madre diseñada para gaming con funciones avanzadas.</p>
+                <p class="precio">$150.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/placamadre-imagen2.jpg" alt="Hardware-1">
+            <div class="card-body">
+                <h5 class="card-title">Placa Madre Gaming</h5>
+                <p class="card-text">Placa madre diseñada para gaming con funciones avanzadas.</p>
+                <p class="precio">$150.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/placamadre-imagen3.jpg" alt="Hardware-1">
+            <div class="card-body">
+                <h5 class="card-title">Placa Madre Gaming</h5>
+                <p class="card-text">Placa madre diseñada para gaming con funciones avanzadas.</p>
+                <p class="precio">$150.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/tarjetadevideo-imagen1.jpg" alt="Hardware-1">
+            <div class="card-body">
+                <h5 class="card-title">Tarjeta de Video Gaming</h5>
+                <p class="card-text">Placa madre diseñada para gaming con funciones avanzadas.</p>
+                <p class="precio">$150.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/tarjetadevideo-imagen2.jpg" alt="Hardware-1">
+            <div class="card-body">
+                <h5 class="card-title">Tarjeta de Video Gaming</h5>
+                <p class="card-text">Placa madre diseñada para gaming con funciones avanzadas.</p>
+                <p class="precio">$150.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/tarjetadevideo-imagen3.jpg" alt="Hardware-1">
+            <div class="card-body">
+                <h5 class="card-title">Tarjeta de Video Gaming</h5>
+                <p class="card-text">Placa madre diseñada para gaming con funciones avanzadas.</p>
+                <p class="precio">$150.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+
+<section id="pcs-armadas" class="productos-seccion">
+    <h2 class="titulo-seccion">PCs Armadas</h2>
+    <div class="destacados-section">
+        <div class="card">
+            <img src="../img/pcgamerejemplo1.jpg" alt="PCGAMER-1">
+            <div class="card-body">
+                <h5 class="card-title">PC Gamer de Alto Rendimiento</h5>
+                <p class="card-text">PC Gamer ensamblada con componentes de última generación para ofrecer un rendimiento excepcional en juegos.</p>
+                <p class="precio">$1200.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/pcgamer2ejemplo.jpg" alt="PCGAMER-2">
+            <div class="card-body">
+                <h5 class="card-title">PC Gamer Compacta</h5>
+                <p class="card-text">PC Gamer compacta y potente, ideal para espacios reducidos y rendimiento de primera.</p>
+                <p class="precio">$900.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/pcgamerej3.jpg" alt="PCGAMER-3">
+            <div class="card-body">
+                <h5 class="card-title">PC Gamer de Edición Especial</h5>
+                <p class="card-text">PC Gamer de edición especial con diseño exclusivo y rendimiento superior.</p>
+                <p class="precio">$1500.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/pcgamerej4.jpg" alt="PCGAMER-4">
+            <div class="card-body">
+                <h5 class="card-title">PC Gamer VR-Ready</h5>
+                <p class="card-text">PC Gamer preparada para realidad virtual, experimenta juegos inmersivos como nunca antes.</p>
+                <p class="precio">$1800.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/pcgamerej5.jpg" alt="PCGAMER-5">
+            <div class="card-body">
+                <h5 class="card-title">PC Gamer de Diseño Minimalista</h5>
+                <p class="card-text">PC Gamer con un elegante diseño minimalista y potencia para tus juegos favoritos.</p>
+                <p class="precio">$1000.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/pcgamerej6.jpg" alt="PCGAMER-6">
+            <div class="card-body">
+                <h5 class="card-title">PC Gamer Todo en Uno</h5>
+                <p class="card-text">PC Gamer todo en uno con monitor integrado, listo para jugar sin complicaciones.</p>
+                <p class="precio">$1300.00</p>
+                <button class="btn btn-primary" onclick="agregarAlCarrito('Procesador Intel Core i7', 300.00)">Agregar al Carrito</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    </main>
+    <footer class="footer text-center">
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Contactanos</h5>
+                        <p>Remedios de Escalada de San Martín 3875<br>Floresta (CABA)</p>
+                        <p>Florida 537 PB, Local 379<br>Microcentro (CABA)</p>
+                        <p>Whatsapp: +54 11 2357-5522<br>Email: empresas@maximus.com.ar</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Seguinos en las Redes</h5>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">Instagram</a></li>
+                            <li class="list-inline-item"><a href="#">Facebook</a></li>
+                            <li class="list-inline-item"><a href="#">YouTube</a></li>
+                            <li class="list-inline-item"><a href="#">TikTok</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Horarios</h5>
+                        <p><strong>Floresta:</strong> Lun a Vier. 9:00 AM - 18:00 PM, Sab 10:00 AM - 14:30 PM</p>
+                        <p><strong>Florida Local:</strong> Lun a Vier. 10:00 AM a 19:00 PM, Sab 10:00 AM - 14:30 PM</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>Ayuda</h5>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">FAQ</a></li>
+                            <li class="list-inline-item"><a href="#">Trámite Garantía</a></li>
+                            <li class="list-inline-item"><a href="#">Boton de Arrepentimiento</a></li>
+                            <li class="list-inline-item"><a href="#">RMA - Garantia</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>Defensa del Consumidor</h5>
+                        <p><a href="#">Ley de defensa del consumidor</a></p>
+                        <p>Conocé tus derechos como consumidor</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
