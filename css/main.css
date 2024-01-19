@@ -310,9 +310,13 @@ main#preguntas-frecuentes {
 }
 
 .card-header-pregunta-frecuente button {
-    color: #fff; 
+    color: #000000; 
 }
 
 .card-body-pregunta-frecuente {
     color: #343a40; 
+}
+
+.container-preguntas-frecuentes{
+    color: #000000;
 }
