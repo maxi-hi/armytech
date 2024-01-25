@@ -205,20 +205,20 @@ main#preguntas-frecuentes {
 
 .container-preguntas-frecuentes {
     background-color: #ffffff;
-    padding: 30px; // Aumenté el padding
+    padding: 30px; 
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); // Aumenté la sombra
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
     .card-pregunta-frecuente {
-        margin-bottom: 30px; // Aumenté el margen inferior
+        margin-bottom: 30px; 
         border: none;
-        border-radius: 15px; // Aumenté el radio de la esquina
+        border-radius: 15px; 
         overflow: hidden;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); // Aumenté la sombra
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
 
         .card-header-pregunta-frecuente {
             background-color: #343a40;
-            padding: 20px; // Aumenté el padding
+            padding: 20px; 
 
             button {
                 color: #ffffff;
@@ -227,7 +227,7 @@ main#preguntas-frecuentes {
 
         .card-body-pregunta-frecuente {
             color: #343a40;
-            padding: 20px; // Aumenté el padding
+            padding: 20px; 
         }
     }
 
