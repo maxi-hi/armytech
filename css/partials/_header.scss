@@ -1,0 +1,65 @@
+//header
+.titulo {
+    font-size: 25px;
+    text-decoration: none;
+    color: $color-white;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+nav {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        background-color: $color-nav-bg;
+
+        li {
+            margin-right: 15px;
+            font-size: 18px;
+
+            a {
+                text-decoration: none;
+                color: $color-white;
+                font-weight: bold;
+                display: block;
+                padding: 12px;
+                box-sizing: border-box;
+                position: relative;
+                transition: color 0.3s;
+
+                &:after {
+                    content: "";
+                    display: block;
+                    width: 0;
+                    height: 2px;
+                    background-color: $color-white;
+                    transition: width 0.3s;
+                }
+
+                &:hover,
+                &:focus {
+                    color: $color-secondary;
+                }
+
+                &:hover::after,
+                &:focus::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.logo-principal {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    background-color: $color-nav-bg;
+}
+

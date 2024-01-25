@@ -1,0 +1,263 @@
+//main index
+
+main {
+    background-color: $color-white;
+    padding: 0;
+    min-height: 100vh;
+    margin-top: 20px;
+}
+
+.destacados {
+    font-size: 36px;
+    font-weight: bold;
+    color: $color-white;
+    margin-bottom: 20px;
+    background-color: #228537;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.destacados-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    width: 18rem;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px 15px 0 0;
+    }
+}
+
+.marca-container {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    p {
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
+.row-cols-4>.col {
+    flex: 0 0 24%;
+}
+
+.navbar-light {
+
+    .nav-link:hover,
+    .nav-link:focus {
+        color: $color-white;
+    }
+}
+
+.custom-navbar {
+    .navbar-brand {
+        color: $color-white;
+
+        &:hover,
+        &:focus {
+            color: $color-white;
+        }
+    }
+
+    &,
+    .categoria-item {
+        background-color: $color-nav-bg;
+    }
+
+    .navbar-brand,
+    .categoria-item a {
+        color: $color-white;
+
+        &:hover,
+        &:focus {
+            color: $color-white;
+        }
+    }
+
+    .navbar-toggler.collapsed {
+        background-color: $color-nav-bg;
+        border: 1px solid $color-nav-bg;
+    }
+}
+
+.columna-b {
+    background-color: $color-main-bg;
+    color: $color-white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.productos-item-destacados {
+    text-decoration: none;
+    color: white;
+}
+
+//main productos
+
+.titulo-seccion {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.navbar-light {
+
+    .nav-link:hover,
+    .nav-link:focus {
+        color: $color-white;
+    }
+}
+
+.custom-navbar {
+    .navbar-brand {
+        color: $color-white;
+
+        &:hover,
+        &:focus {
+            color: $color-white;
+        }
+    }
+
+    &,
+    .categoria-item {
+        background-color: $color-nav-bg;
+    }
+
+    .navbar-brand,
+    .categoria-item a {
+        color: $color-white;
+
+        &:hover,
+        &:focus {
+            color: $color-white;
+        }
+    }
+
+    .navbar-toggler.collapsed {
+        background-color: $color-nav-bg;
+        border: 1px solid $color-nav-bg;
+    }
+}
+
+.productos-seccion {
+    background-color: $color-background;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+//main ingresar
+
+
+body.ingresar {
+    background-image: url('../img/fotodefondoingresar2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: $color-white;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+
+//main preguntas frecuentes
+
+main#preguntas-frecuentes {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.container-preguntas-frecuentes {
+    background-color: #ffffff;
+    padding: 30px; // Aumenté el padding
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); // Aumenté la sombra
+
+    .card-pregunta-frecuente {
+        margin-bottom: 30px; // Aumenté el margen inferior
+        border: none;
+        border-radius: 15px; // Aumenté el radio de la esquina
+        overflow: hidden;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); // Aumenté la sombra
+
+        .card-header-pregunta-frecuente {
+            background-color: #343a40;
+            padding: 20px; // Aumenté el padding
+
+            button {
+                color: #ffffff;
+            }
+        }
+
+        .card-body-pregunta-frecuente {
+            color: #343a40;
+            padding: 20px; // Aumenté el padding
+        }
+    }
+
+    color: #000000;
+}
+
+//carrito
+.pcarrito {
+    color: white;
+}
+
+
+//ayuda
+
+.faq-box {
+    margin-bottom: 20px;
+    background-color: #302d2d;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.faq-box h4 {
+    color: #106e37;
+    text-align: center;
+}
+
+.faq-box p {
+    color: #ffffff;
+}
+
+h2 {
+    color: white;
+}
